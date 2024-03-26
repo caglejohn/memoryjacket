@@ -1,0 +1,24 @@
+{
+<<<<<<< HEAD
+    "name": "com.unity.modules.screencapture",
+    "version": "1.0.0",
+    "type": "module",
+    "displayName": "Screen Capture",
+    "description": "The ScreenCapture module provides functionality to take screen shots using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html",
+    "icon": ".icon.png",
+    "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+    }
+}
+=======
+  "name": "com.unity.modules.screencapture",
+  "version": "1.0.0",
+  "type": "module",
+  "displayName": "Screen Capture",
+  "description": "The ScreenCapture module provides functionality to take screen shots using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html",
+  "icon": ".icon.png",
+  "dependencies": {
+    "com.unity.modules.imageconversion": "1.0.0"
+  }
+}
+>>>>>>> 458ef916b75c3bd6569f861caf45a427b56bb958
