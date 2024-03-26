@@ -1,4 +1,4 @@
-# Memory Jacket: A Robotic Mystery
+# Memory Jacket: Lost Archives
 
 ## Overview
 Memory Jacket is an immersive mystery game where players take on the role of Sam, an android on a poignant quest to recover his lost memories and save the city from an enigmatic threat. Set in a sprawling, neon-lit metropolis that blends futuristic technology with shadowy intrigue, players will navigate puzzles, decode mysteries, and confront ethical dilemmas that challenge the very core of Sams's artificial intelligence.
