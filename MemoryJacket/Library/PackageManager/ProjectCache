@@ -1,0 +1,26 @@
+m_ProjectFiles:
+  m_ManifestFileStatus:
+    m_FilePath: C:/Users/johnc/Documents/project_folder/MemoryJacket/memoryjacket/MemoryJacket/Packages/manifest.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637891872930000000
+    m_Hash: 3680315187
+  m_LockFileStatus:
+    m_FilePath: C:/Users/johnc/Documents/project_folder/MemoryJacket/memoryjacket/MemoryJacket/Packages/packages-lock.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+m_EmbeddedPackageManifests:
+  m_ManifestsStatus: {}
+m_PackageAssets:
+  m_Packages:
+    m_ResolvedPackages: []
+  m_LocalPackages:
+    m_LocalFileStatus: []
+m_ProjectPath: C:/Users/johnc/Documents/project_folder/MemoryJacket/memoryjacket/MemoryJacket/Packages
+m_EditorVersion: 2020.3.48f1 (b805b124c6b7)
