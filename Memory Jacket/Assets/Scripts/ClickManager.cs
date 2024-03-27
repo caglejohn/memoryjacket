@@ -5,26 +5,20 @@ using static UnityEditor.Progress;
 
 public class ClickManager : MonoBehaviour
 {
-    float moveSpeed = 3.5f, moveAccuracy = 0.15f;
+    public bool playerWalking;
     public Transform character;
+    GameManager gameManager;
+
+    private void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
     public void GoToItem(ItemData item)
     {
-        StartCoroutine(MoveToPoint(item.goToPoint.position));
+        StartCoroutine(gameManager.MoveToPoint(character, item.goToPoint.position));
+        playerWalking = true;
         TryGettingItem(item);
-    }
-
-    public IEnumerator MoveToPoint(Vector2 point)
-    {
-        Vector2 positionDifference = point - (Vector2)character.position; // Set Direction
-        while(positionDifference.magnitude > moveAccuracy) // Stop when we're close to the point (accuracy)
-        {
-            character.Translate(moveSpeed * positionDifference.normalized * Time.deltaTime); // Move in direction frame after frame
-            positionDifference = point - (Vector2)character.position;
-            yield return null;
-        }
-        
-        character.position = point;
-        yield return null;
+        StartCoroutine(updateSceneAfterAction(item));
     }
 
     private void TryGettingItem(ItemData item)
@@ -32,7 +26,19 @@ public class ClickManager : MonoBehaviour
         if (item.requiredItemID == -1 || GameManager.collectedItems.Contains(item.requiredItemID))
         {
             GameManager.collectedItems.Add(item.itemID);
-            Debug.Log("item collected");
         }
+    }
+
+    private IEnumerator updateSceneAfterAction(ItemData item)
+    {
+        while (playerWalking) //wait for player to reach the target
+        {
+            yield return new WaitForSeconds(1.5f);
+        }
+        
+        foreach (GameObject g in item.objectsToRemove)
+            Destroy(g);
+        Debug.Log("item collected");
+
     }
 }
