@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|c:\\users\\johnc\\documents\\project_folder\\memoryjacket\\memoryjacket\\memory jacket\\assets\\scripts\\clickmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clickmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClickManager.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\ClickManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ClickManager.cs",
+              "ToolTip": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\ClickManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ClickManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:40:30.825Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
