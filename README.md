@@ -23,8 +23,5 @@ This project is currently in development, and we're open to contributions! Wheth
 - Our Professor for instruction, guidance, and feedback.
 - Our classmates for their support.
 
-**Join Our Adventure**
-Interested in contributing? Reach out and join our community.
-
 ## Contact
 Got questions or suggestions? Reach out to us! We're always happy to hear from the community!
