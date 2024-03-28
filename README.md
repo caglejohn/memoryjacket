@@ -13,8 +13,18 @@ Memory Jacket is an immersive mystery game where players take on the role of Sam
 ## Getting Involved
 This project is currently in development, and we're open to contributions! Whether you're a game developer, artist, writer, or just someone passionate about storytelling and games, there's a place for you here. Check out our contribution guidelines for more details on how you can be a part of Memory Jacket.
 
-## Stay Updated
-For the latest updates, follow our GitHub repo and join our community on Discord. We're excited to share progress, sneak peeks, and engage with players and contributors.
+## Credits
+
+**Co-Creators and Contributors**
+- **John:** Creative Director, Developer, & Designer
+- **Cole:** Creative Director, Developer, & Designer
+
+**Special Thanks**
+- Our Professor for instruction, guidance, and feedback.
+- Our classmates for their support.
+
+**Join Our Adventure**
+Interested in contributing? Reach out and join our community.
 
 ## Contact
 Got questions or suggestions? Reach out to us! We're always happy to hear from the community!
