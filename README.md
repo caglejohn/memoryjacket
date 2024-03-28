@@ -11,7 +11,7 @@ Memory Jacket is an immersive mystery game where players take on the role of Sam
 - **Stunning Visuals and Soundtrack:** Immerse yourself in an atmospheric world, brought to life with breathtaking visuals and a hauntingly beautiful soundtrack.
 
 ## Getting Involved
-This project is currently in development, and we're open to contributions! Whether you're a game developer, artist, writer, or just someone passionate about storytelling and games, there's a place for you here. Check out our contribution guidelines for more details on how you can be a part of Memory Jacket.
+This project is currently in development, and we're open to suggestions! Whether you're a game developer, artist, writer, or just someone passionate about storytelling and games, we'd love to hear your playtesting feedback.
 
 ## Credits
 
