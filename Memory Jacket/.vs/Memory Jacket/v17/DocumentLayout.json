@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|c:\\users\\johnc\\documents\\project_folder\\memoryjacket\\memoryjacket\\memory jacket\\assets\\scripts\\nametag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nametag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|c:\\users\\johnc\\documents\\project_folder\\memoryjacket\\memoryjacket\\memory jacket\\assets\\scripts\\animationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\assets\\scripts\\clickmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clickmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|c:\\users\\johnc\\documents\\project_folder\\memoryjacket\\memoryjacket\\memory jacket\\assets\\scripts\\clickmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62851742-F5EE-02C6-BAE4-3B815D90E7B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clickmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NameTag.cs",
-              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\NameTag.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NameTag.cs",
-              "ToolTip": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\NameTag.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NameTag.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:07:55.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnimationData.cs",
-              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\AnimationData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationData.cs",
-              "ToolTip": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\AnimationData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnimationData.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T18:03:16.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T16:11:59.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ClickManager.cs",
               "DocumentMoniker": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\ClickManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ClickManager.cs",
               "ToolTip": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\ClickManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ClickManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAAAtAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAswEEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T16:05:12.811Z"
+              "WhenOpened": "2024-04-03T21:11:18.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemData.cs",
-              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\ItemData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemData.cs",
-              "ToolTip": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\ItemData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\johnc\\Documents\\project_folder\\MemoryJacket\\memoryjacket\\Memory Jacket\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAQwEUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T16:03:46.815Z"
+              "WhenOpened": "2024-03-27T16:11:59.229Z",
+              "EditorCaption": ""
             }
           ]
         }

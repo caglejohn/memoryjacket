@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using JetBrains.Annotations;
 
 public class GameManager : MonoBehaviour
 {
     public static List<int> collectedItems = new List<int>();
     static float moveSpeed = 3.5f, moveAccuracy = 0.15f;
-    public RectTransform nameTag;
+    public RectTransform nameTag, hintBox;
 
     int activeLocalScene = 0;
 
@@ -59,8 +60,35 @@ public class GameManager : MonoBehaviour
 
     public void UpdateNameTag(ItemData item)
     {
-        nameTag.GetComponentInChildren<TextMeshProUGUI>().text = item.objectName;
+        nameTag.GetComponentInChildren<TextMeshProUGUI>().text = item.hintMessage;
         nameTag.sizeDelta = item.nameTageSize;
         nameTag.localPosition = new Vector2(item.nameTageSize.x/2, -0.5f);
+    }
+
+    public void UpdateHintBox(ItemData item, bool playerFlipped)
+    {
+        if (item == null) 
+        {
+            // Hide hint Box
+            hintBox.gameObject.SetActive(false);
+            return;
+        }
+        // Show hint box
+        hintBox.gameObject.SetActive(true);
+
+        // Change name
+        hintBox.GetComponentInChildren<TextMeshProUGUI>().text = item.hintMessage;
+        
+        hintBox.sizeDelta = item.hintBoxSize;
+        
+        // Move hint box
+        if (playerFlipped ) 
+        {
+            hintBox.parent.localPosition = new Vector2(0, 0);
+        }
+        else
+        {
+            hintBox.parent.localPosition = Vector2.zero;
+        }
     }
 }

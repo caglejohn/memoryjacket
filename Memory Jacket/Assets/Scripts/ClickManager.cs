@@ -56,8 +56,14 @@ private IEnumerator CleanAfterClick()
 
     public void GoToItem(ItemData item)
     {
+        // update hint box
+        gameManager.UpdateHintBox(null, false);
+
+        // Start moving player
         StartCoroutine(gameManager.MoveToPoint(character, item.goToPoint.position));
         playerWalking = true;
+        
+        // Equipment stuff
         TryGettingItem(item);
     }
 
@@ -87,6 +93,10 @@ private IEnumerator CleanAfterClick()
             foreach (GameObject g in item.objectsToRemove)
             Destroy(g);
         Debug.Log("item collected");
+        }
+        else
+        {
+            gameManager.UpdateHintBox(item, player.GetComponentInChildren<SpriteRenderer>().flipX);
         }
 
     }
