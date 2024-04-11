@@ -60,9 +60,9 @@ public class GameManager : MonoBehaviour
 
     public void UpdateNameTag(ItemData item)
     {
-        nameTag.GetComponentInChildren<TextMeshProUGUI>().text = item.hintMessage;
-        nameTag.sizeDelta = item.nameTageSize;
-        nameTag.localPosition = new Vector2(item.nameTageSize.x/2, -0.5f);
+        nameTag.GetComponentInChildren<TextMeshProUGUI>().text = item.objectName;
+        nameTag.sizeDelta = item.nameTagSize;
+        nameTag.localPosition = new Vector2(item.nameTagSize.x/2, -0.5f);
     }
 
     public void UpdateHintBox(ItemData item, bool playerFlipped)
