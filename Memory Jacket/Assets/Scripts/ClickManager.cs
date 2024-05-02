@@ -38,10 +38,10 @@ public IEnumerator GoToClick(Vector2 mousePos)
     {
         yield break;
     }
-    //gameManager.UpdateHintBox(null, false);   (Not Yet Implemented)
+    gameManager.UpdateHintBox(null, false);
     playerWalking = true;
     StartCoroutine(gameManager.MoveToPoint(player,targetPos));
-    //player.GetComponent<SpriteAnimator>().PlayAnimation(gameManager.playerAnimations[1]);
+    player.GetComponent<SpriteAnimator>().PlayAnimation(gameManager.playerAnimations[1]);
     StartCoroutine(CleanAfterClick());
     yield return null;
 }
@@ -50,7 +50,7 @@ private IEnumerator CleanAfterClick()
     {
         while (playerWalking)
             yield return new WaitForSeconds(0.05f);
-        //player.GetComponent<SpriteAnimator>().PlayAnimation(null);
+        player.GetComponent<SpriteAnimator>().PlayAnimation(null);
         yield return null;
     }
 
@@ -60,6 +60,7 @@ private IEnumerator CleanAfterClick()
         gameManager.UpdateHintBox(null, false);
 
         // Start moving player
+        player.GetComponent<SpriteAnimator>().PlayAnimation(gameManager.playerAnimations[1]);
         StartCoroutine(gameManager.MoveToPoint(character, item.goToPoint.position));
         playerWalking = true;
         
@@ -97,6 +98,7 @@ private IEnumerator CleanAfterClick()
         else
         {
             gameManager.UpdateHintBox(item, player.GetComponentInChildren<SpriteRenderer>().flipX);
+            //gameManager.CheckSpecialConditions(item); Commented out as it breaks it right now.
         }
 
     }

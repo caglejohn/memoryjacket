@@ -1,0 +1,32 @@
+_SCENE_0 Computer terminal jumps up with command (WAKE UP)
+_SCENE_1
+	Character lying/ hunched over near electronic and computer parts.(mostly undressed)
+
+Terminal window opt. reveals with LOCATIONS and ID, (jacket)INVENTORY List and TASKS  Notes.
+ID part of terminal has string of numbers, question marks and ID
+First quest, “Whats my name” ongoing quest “WHO AM 1?”
+Character examines(“LOOKS”) at information in terminal ID “-This looks wrong-” “Where is my name?’’ 
+Id information can change when character discovers more information about themselves
+Picks up OBJECT “old Jacket” Says “theres something in the pocket (if “looks at” says its a wrinkled old jacket” if talk to jacket character says “hello old smelly jacket” etc”?)
+Window pops up of items in jacket( Separate jacket Inventory) Character looks at items from jacket(lots of pocket space)
+ID card, a used pack of gum, an empty prescription bottle, key card(broken), business card with contact information to “someone”, napkin to cafe/bar/place location (new location when  looked at)
+USE jacket- put’s on (“yeah that feels right”)
+current location is locked room
+use broken key card to open door(shimmies the lock) 
+or examine room for window exit, vent exit (pick up carpet, -use- window with chair) 
+_Scene_2
+ outside alleyway
+yellow power wires leading from place to place
+graffiti 
+first new character (sleeping person in alleyway using outside power socket)
+Talking to character wakes them up ( “leave me alone! im not bothering anyone”)( “oh, its just YOU, what happened to the other one?”)
+Try to talk to but they tell them to give them help/money or  go away refer( will return ) 
+Try to convince them but they return to sleep
+Leave ally
+_Scene_3
+Mouse Appears on screen as a PLUS sign(+) turns bold when hovering over OBJECT
+click mouse anywhere to make character walk to place, use keys for actions such as— look at, open, close,USE/ interact with, talk to,--- and pick up/put down. Terminal information can be “LOOKED” at by character and commentary appears from the character.
+
+NOTeS
+Name, Id information can automatically be imputed after player confirms information “Window opens with confirmation requirement”
+Some information not able to change, determined by company(serial number, company name, employee ID) unless outside hardware is used.

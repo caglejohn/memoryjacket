@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af80a7841baf1954fa77e67cf2d8b39f, type: 3}
   m_Name: Player Walk
   m_EditorClassIdentifier: 
-  framesOfGap: 0
-  sprites: []
+  framesOfGap: 15
+  sprites:
+  - {fileID: -3163981103226184952, guid: 7f431e82e7b6df04d9682997d7b46416, type: 3}
+  - {fileID: -4248728226282496792, guid: 7f431e82e7b6df04d9682997d7b46416, type: 3}
+  - {fileID: 7649054592446339548, guid: 7f431e82e7b6df04d9682997d7b46416, type: 3}
+  - {fileID: 3763625868103195903, guid: 7f431e82e7b6df04d9682997d7b46416, type: 3}
+  loop: 1
+  returnToBase: 1

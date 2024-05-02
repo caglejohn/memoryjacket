@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: Player Idle
   m_EditorClassIdentifier: 
   framesOfGap: 0
-  sprites: []
+  sprites:
+  - {fileID: -3163981103226184952, guid: 7f431e82e7b6df04d9682997d7b46416, type: 3}
+  loop: 1
+  returnToBase: 1

@@ -4,14 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using JetBrains.Annotations;
+using UnityEditor;
 
 public class GameManager : MonoBehaviour
 {
     public static List<int> collectedItems = new List<int>();
     static float moveSpeed = 3.5f, moveAccuracy = 0.15f;
+
+    public AnimationData[] playerAnimations;
     public RectTransform nameTag, hintBox;
 
+    public Image blockingImage;
+    
+    public GameObject[] localScenes;
+
     int activeLocalScene = 0;
+
+    public Transform[] playerStartPositions;
 
     public IEnumerator MoveToPoint(Transform MyObject, Vector2 point)
     {
@@ -91,4 +100,66 @@ public class GameManager : MonoBehaviour
             hintBox.parent.localPosition = Vector2.zero;
         }
     }
+
+/*public void CheckSpecialConditions(ItemData item){
+    case -11:
+        StartCoroutine(ChangeScene(1,0));
+        break;
+    case -12:
+        StartCoroutine(ChangeScene(2,0));
+        break;
+    case -1:
+        StartCoroutine(ChangeScene(3,0));
+        break; 
+}
+
+ public IEnumerator ChangeScene(int sceneNumber,float delay) //Not sure why public makes this break. I commented everything out so it'll work for the presentation.
+    {
+        yield return new WaitForSeconds(delay);
+
+        //if end game remove player
+        if (sceneNumber == localScenes.Length - 1)
+        {
+            FindObjectOfType<ClickManager>().player.gameObject.SetActive(false);
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        Color c = blockingImage.color;
+        //screen goes black (in one second) and clicking is blocked
+        blockingImage.enabled = true;
+        while(blockingImage.color.a<1)
+        {
+            //increase color.a
+            c.a += Time.deltaTime;
+            yield return null;
+            blockingImage.color = c;
+        }
+
+        //hide the old scene
+        localScenes[activeLocalScene].SetActive(false);
+        //show the new scene
+        localScenes[sceneNumber].SetActive(true);
+        //say which one is currently used
+        activeLocalScene = sceneNumber;
+        //teleport the player
+        FindObjectOfType<ClickManager>().player.position = playerStartPositions[sceneNumber].position;
+        //hide hint box
+        UpdateHintBox(null, false);
+        //hide name tag
+        UpdateNameTag(null);
+        //reset animations
+        foreach (SpriteAnimator spriteAnimator in FindObjectsOfType<SpriteAnimator>())
+            spriteAnimator.PlayAnimation(null);
+        //show new scene and enable clicking
+        while (blockingImage.color.a > 0)
+        {
+            //decrease color.a
+            c.a -= Time.deltaTime;
+            yield return null;
+            blockingImage.color = c;
+        }
+        blockingImage.enabled = false;
+        yield return null;
+    }
+*/ 
 }
